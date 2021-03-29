@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>COVID-19 Pandemic Stats</title>
+</head>
+<body>
+    <header>
+        <div class="main_bar">
+            <img src="images/sarscov2_icon.png"/> 
+            <p>COVID-19 <br /> Pandemic Stats</p> 
+        </div>
+        <div class="change-country">Choose country</div>
+        <div class="search-country hide">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search country..." />
+                <img class="close" src="images/close-line.svg"/>          
+            </div>
+            <div class="country-list">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="stats">
+            <div class="report">
+                <div class="country">
+                    <div class="country-name">Country name</div></div>
+                <div class="total-cases">
+                    <div class="title">Total Cases</div>
+                    <div class="value">0</div>
+                    <div class="new-cases">+0</div>
+                </div>
+                <div class="recover">
+                    <div class="title">Recovered</div>
+                    <div class="value">0</div>
+                    <div class="new-recovers">+0</div>
+                </div>
+                <div class="dead"> 
+                    <div class="title">Deaths</div>
+                    <div class="value">0</div>
+                    <div class="new-deaths">+0</div>
+                </div>
+            </div>
+            <div class="graph">
+                <canvas id="pandemic-graph"></canvas>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+        </div>
+    </footer>
+
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+    <script src="js/countries.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
