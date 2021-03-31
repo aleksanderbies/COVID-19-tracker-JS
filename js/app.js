@@ -98,12 +98,12 @@ function updateStatistics() {
       total_recovered = recovered_list[recovered_list.length - 1], new_recovered_cases = total_recovered - recovered_list[recovered_list.length - 2], 
       total_deaths = deaths_list[deaths_list.length - 1], new_deaths_cases = total_deaths - deaths_list[deaths_list.length - 2];
     country_name_div.innerHTML = user_country;
-    total_cases_div.innerHTML = total_cases;
-    new_cases_div.innerHTML = `+${new_confirmed_cases}`;
-    recovered_div.innerHTML = total_recovered;
-    new_recovers_div.innerHTML = `+${new_recovered_cases}`;
-    dead_div.innerHTML = total_deaths;
-    new_deaths_div.innerHTML = `+${new_deaths_cases}`;
+    total_cases_div.innerHTML = total_cases.toLocaleString();
+    new_cases_div.innerHTML =  "+" + new_confirmed_cases.toLocaleString();
+    recovered_div.innerHTML = total_recovered.toLocaleString();;
+    new_recovers_div.innerHTML = "+" + new_recovered_cases.toLocaleString();;
+    dead_div.innerHTML = total_deaths.toLocaleString();;
+    new_deaths_div.innerHTML = "+" + new_deaths_cases.toLocaleString();;
     dates.forEach((date) => {
       format_dates.push(toFormatDate(date));
     });
