@@ -7,13 +7,13 @@ You can also choose another country, to see stats for the country you are intere
 ## Some sceenshots
 
 Main Screen (using geoplugin)
-![MainScreen](https://github.com/aleksanderbies/COVID-19-tracker-JavaScript/blob/master/images/ct1.png?raw=true)
+![MainScreen](https://github.com/aleksanderbies/COVID-19-tracker/blob/master/images/ct1.png?raw=true)
 
 Choosing another country from list
-![Collision](https://github.com/aleksanderbies/COVID-19-tracker-JavaScript/blob/master/images/ct3.png?raw=true)
+![Collision](https://github.com/aleksanderbies/COVID-19-tracker/blob/master/images/ct3.png?raw=true)
 
 Reading data for another country from list
-![Shooting](https://github.com/aleksanderbies/COVID-19-tracker-JavaScript/blob/master/images/ct2.png?raw=true)
+![Shooting](https://github.com/aleksanderbies/COVID-19-tracker/blob/master/images/ct2.png?raw=true)
 
 
 
