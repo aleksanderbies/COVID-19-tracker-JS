@@ -1,7 +1,7 @@
 # COVID-19 Pandemic Stats Tracker
 
 My first AJAX app that informs about confirmed cases, recovers and deaths of Sars-CoV2 coronavirus pandemic.
-Application works with geoplugin, so on main screen you can see stats for country where you are currently. 
+Application works with geoplugin, so on main screen you can see stats for country where you are currently. <br />
 You can also choose another country, to see stats for the country you are interested in. For each country you can se the graph of cases, recovers and death made in canvas.
 
 ## Some sceenshots
